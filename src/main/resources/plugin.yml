@@ -1,0 +1,11 @@
+name: NoJoinAndQuitMessages
+version: '${project.version}'
+main: me.hhappa0.nojoinandquitmessages.Main
+api-version: '1.20'
+commands:
+  about:
+    description: About command
+    permission: nojoinandquitmessages.about
+permissions:
+  nojoinandquitmessages.about:
+    default: op
